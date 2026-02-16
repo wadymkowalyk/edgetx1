@@ -235,7 +235,6 @@ void ViewMain::doKeyShortcut(event_t event)
 }
 void ViewMain::onPressSYS() { doKeyShortcut(EVT_KEY_BREAK(KEY_MODEL)); }
 void ViewMain::onLongPressSYS() { doKeyShortcut(EVT_KEY_LONG(KEY_SYS)); }
-void ViewMain::onPressMDL() { doKeyShortcut(EVT_KEY_BREAK(KEY_SYS)); }
 void ViewMain::onLongPressMDL() { doKeyShortcut(EVT_KEY_LONG(KEY_MODEL)); }
 void ViewMain::onPressTELE() { doKeyShortcut(EVT_KEY_BREAK(KEY_TELE)); }
 void ViewMain::onLongPressTELE() { doKeyShortcut(EVT_KEY_LONG(KEY_TELE)); }
