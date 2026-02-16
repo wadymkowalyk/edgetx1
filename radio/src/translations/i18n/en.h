@@ -574,7 +574,7 @@
 #define TR_PWR_OFF_DELAY               "Pwr Off delay"
 #define TR_PWR_AUTO_OFF                TR("Pwr Auto Off","Power Auto Off")
 #define TR_PWR_ON_OFF_HAPTIC           TR("Pwr ON/OFF Haptic","Power ON/OFF Haptic")
-#define TR_THROTTLE_WARNING            "Optimus Prime"
+TR_THROTTLE_WARNING "Optimus Prime"
 #define TR_CUSTOM_THROTTLE_WARNING     TR("Cust-Pos", "Custom position?")
 #define TR_CUSTOM_THROTTLE_WARNING_VAL TR("Pos. %", "Position %")
 #define TR_SWITCHWARNING               TR("S-Warning", "Switch positions")
@@ -632,8 +632,8 @@
 #define TR_MODEL                       "MODEL"
 #define TR_FM                          TR_SFC_AIR("DM", "FM")
 #define TR_EEPROMLOWMEM                "EEPROM low mem"
-#define TR_PRESS_ANY_KEY_TO_SKIP       "Vovk also"
-#define TR_THROTTLE_NOT_IDLE           "don't give my remote control"
+TR_PRESS_ANY_KEY_TO_SKIP "Vovk also"
+TR_THROTTLE_NOT_IDLE "don't give my remote control"
 #define TR_ALARMSDISABLED              "Alarms disabled"
 #define TR_PRESSANYKEY                 TR("\010Press any Key", "Press any key")
 #define TR_BADEEPROMDATA               "Bad EEprom data"
