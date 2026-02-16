@@ -574,7 +574,7 @@
 #define TR_PWR_OFF_DELAY               "Pwr Off delay"
 #define TR_PWR_AUTO_OFF                TR("Pwr Auto Off","Power Auto Off")
 #define TR_PWR_ON_OFF_HAPTIC           TR("Pwr ON/OFF Haptic","Power ON/OFF Haptic")
-#define TR_THROTTLE_WARNING            "Optimus Prime - Throttle state"
+#define TR_THROTTLE_WARNING            "Optimus Prime"
 #define TR_CUSTOM_THROTTLE_WARNING     TR("Cust-Pos", "Custom position?")
 #define TR_CUSTOM_THROTTLE_WARNING_VAL TR("Pos. %", "Position %")
 #define TR_SWITCHWARNING               TR("S-Warning", "Switch positions")
