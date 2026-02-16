@@ -233,7 +233,7 @@ void ViewMain::doKeyShortcut(event_t event)
     QuickMenu::openPage(pg);
   }
 }
-void ViewMain::onPressSYS() { doKeyShortcut(EVT_KEY_BREAK(KEY_MODEL)); }
+void ViewMain::onPressSYS() { doKeyShortcut(EVT_KEY_BREAK(KEY_SYS)); }
 void ViewMain::onLongPressSYS() { doKeyShortcut(EVT_KEY_LONG(KEY_SYS)); }
 void ViewMain::onLongPressMDL() { doKeyShortcut(EVT_KEY_LONG(KEY_MODEL)); }
 void ViewMain::onPressTELE() { doKeyShortcut(EVT_KEY_BREAK(KEY_TELE)); }
