@@ -395,3 +395,4 @@ void ViewMain::refreshWidgets()
 {
   if (_instance) _instance->_refreshWidgets();
 }
+
