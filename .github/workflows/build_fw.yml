@@ -1,6 +1,7 @@
 ---
 name: Run tests and package firmware
 on:
+  workflow_dispatch:
   push:
     branches:
       - 'main'
