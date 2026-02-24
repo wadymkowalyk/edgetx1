@@ -77,14 +77,9 @@ static bool evt_to_indev_data(event_t evt, lv_indev_data_t *data)
   case KEY_ENTER:
     data->key = LV_KEY_ENTER;
     break;
-
-  case KEY_EXIT:
-    if (evt == EVT_KEY_BREAK(KEY_EXIT)) {
-      data->key = LV_KEY_ESC;
-      data->state = LV_INDEV_STATE_PRESSED;
-      return true;
-    }
-    return false;
+    
+case KEY_EXIT:
+    return false; // Повністю ігноруємо RTN для LVGL;
 
   default:
     // abort LVGL event
